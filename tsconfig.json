@@ -1,0 +1,37 @@
+{
+  "compilerOptions": {
+    // type definitions
+    "types": [
+      "bun-types"
+    ],
+    // enable latest features
+    "lib": [
+      "esnext"
+    ],
+    "module": "esnext",
+    "target": "esnext",
+    // TS 5.x+
+    "moduleResolution": "bundler",
+    "noEmit": true,
+    "allowImportingTsExtensions": true,
+    "moduleDetection": "force",
+    // react
+    "jsx": "react-jsx",
+    "allowJs": true,
+    "esModuleInterop": true,
+    // best practices
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "composite": true,
+    "downlevelIteration": true,
+    "allowSyntheticDefaultImports": true,
+    // paths
+    "baseUrl": "./src",
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ]
+    }
+  }
+}
